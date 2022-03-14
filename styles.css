@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+
+body {
+    image-rendering: pixelated;
+    background-color: #222;
+    display: flex;
+}
+
+#the-canvas {
+    object-fit: contain;
+    flex-grow: 1;
+}
